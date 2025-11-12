@@ -1,1 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Repaso Parcial - Bianca Galeano</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">BG</div>
+        <div>
+          <h1>Repaso Parcial</h1>
+          <div style="font-size:0.9rem;color:#0b4f2b">Proyecto usando HTML + CSS</div>
+        </div>
+      </div>
+
+      <nav>
+        <a class="nav-btn" href="index.html">Inicio</a>
+        <a class="nav-btn" href="perfil.html">Perfil</a>
+        <a class="nav-btn" href="galeria.html">Galería</a>
+        <a class="nav-btn" href="blog.html">Blog</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Bienvenida — Soy <span style="color:var(--verde-2)">Bianca Galeano</span></h2>
+        <p>En este repositorio encontrarás tres páginas: <strong>Perfil Profesional</strong>, <strong>Galería</strong> y <strong>Blog Personal</strong>. Cada botón tiene animación y cada página incluye los elementos pedidos.</p>
+
+        <div style="margin-top:18px;display:flex;gap:14px;flex-wrap:wrap;align-items:flex-start">
+          <a class="nav-btn" href="perfil.html" style="animation: pop 1s ease;">Ir a Perfil</a>
+          <a class="nav-btn" href="galeria.html" style="animation: pop 1.2s ease;">Ir a Galería</a>
+          <a class="nav-btn" href="blog.html" style="animation: pop 1.4s ease;">Ir a Blog</a>
+        </div>
+
+        <hr style="margin:18px 0;border:none;border-top:1px dashed rgba(4,80,36,0.12)">
+
+        <h3>Breve descripción de cada página</h3>
+        <ul style="margin-top:8px;line-height:1.6">
+          <li><strong>Perfil:</strong> Biografía breve, tabla de carrera (3x5) y sección de contacto con iconos animados. Enlace a CV en PDF.</li>
+          <li><strong>Galería:</strong> 3 imágenes con animaciones diferentes. Título y descripción aparecen al pasar el ratón.</li>
+          <li><strong>Blog:</strong> Tres secciones (ciudades, clubs, comidas favoritas) con botón "Leer más" a páginas externas.</li>
+        </ul>
+
+        <!-- Requisito extra: botón cambiable (usa checkbox) -->
+        <div class="toggle-wrap">
+          <input type="checkbox" id="btn-toggle">
+          <label for="btn-toggle" class="toggle-btn">Botón que cambia al clic</label>
+        </div>
+
+        <!-- Ciclo de colores -->
+        <div style="display:flex;gap:12px;align-items:center;margin-top:12px">
+          <div class="cycle-box">CICLO</div>
+          <div class="rotate-text">Texto rotativo</div>
+          <div class="zoom-box">Hover me</div>
+        </div>
+
+      </section>
+    </main>
+
+    <footer>
+      <div>Hecho por <strong>Bianca Galeano</strong></div>
+      <div>Fecha: <strong><!-- ACTUALIZA MANUALMENTE: 12/11/2025 -->12/11/2025</strong></div>
+    </footer>
+  </div>
+</body>
+</html>
 
